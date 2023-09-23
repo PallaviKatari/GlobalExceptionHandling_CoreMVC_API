@@ -25,18 +25,18 @@ namespace GlobalExceptionHandling_CoreMVC_API.Controllers
         //{
         //    try
         //    {
-        //       IEnumerable<WeatherForecast> list=Enumerable.Range(1,5).Select(index => new WeatherForecast
-        //        {       
+        //        IEnumerable<WeatherForecast> list = Enumerable.Range(1, 5).Select(index => new WeatherForecast
+        //        {
         //            Date = DateTime.Now.AddDays(index),
         //            TemperatureC = Random.Shared.Next(-20, 55),
         //            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         //        })
-        //        .ToArray();
+        //         .ToArray();
         //        if (list != null)
         //            throw new ApplicationException();
         //        return Ok(list);
         //    }
-        //    catch(Exception ex)
+        //    catch (Exception ex)
         //    {
         //        _logger.LogError(ex.Message);
         //        return BadRequest(ex.Message);

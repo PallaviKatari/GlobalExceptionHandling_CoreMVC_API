@@ -42,3 +42,4 @@ namespace GlobalExceptionHandling_CoreMVC_API.Middleware1
         }
     }
 }
+
